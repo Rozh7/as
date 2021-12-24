@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap");
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
+    url(Benefits-of-Managed-IT-Services-Miami-Your-Business-Must-Know.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  list-style: none;
+  height: 50px;
+  background-color: #173d3f;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  /* bo away nav baraka beta nawarast amay xwara bakar ahenen */
+  margin: 0 auto;
+  color: white;
+  padding: 0 10px;
+}
+
+.navbar li {
+  font-size: 18px;
+  font-family: sans-serif;
+  transition: 1s;
+}
+
+.navbar .texts {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  padding: 0 10px;
+}
+
+.navbar .search input[type="text"] {
+  height: 25px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  padding: 0 7px;
+}
+
+.navbar .search button {
+  height: 25px;
+  background-color: #4f7779;
+  border-radius: 30px;
+  padding: 0 auto;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 1.5s;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  padding: 0;
+  margin: 10rem auto 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  padding: 20px;
+  margin: 0 10px;
+  background: #173d3f9c;
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
+  transition: 2s;
+}
+
+.cards h3 {
+  transition: 1.5s;
+}
+
+.cards p {
+  transition: 1.5s;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  padding: 20px;
+  margin: 0 10px;
+  background: #173d3f9c;
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
+  transition: 2s;
+}
+
+.card img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card2 img {
+  height: 100px;
+  width: 100px;
+  /* border-radius: 50%; */
+  object-fit: cover;
+}
+
+.navbar .texts li:hover {
+  color: rgb(55, 133, 125);
+}
+
+.navbar .search button:hover {
+  box-shadow: 0px 0px 5px 1px turquoise;
+}
+
+.cards h3:hover {
+  color: rgb(23, 116, 106);
+}
+
+.cards p:hover {
+  color: rgb(6, 167, 150);
+}
+
+.card:hover {
+  box-shadow: 0px 0px 10px 5px #173d3f9c;
+}
+
+.card2:hover {
+  box-shadow: 0px 0px 10px 5px #173d3f9c;
+}
